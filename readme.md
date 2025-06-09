@@ -9,10 +9,10 @@ This guide is intended for **IT administrators and Change Management teams** in 
 ---
 ## Promoting Awareness for the Newly Pinned Copilot Chat App
 
-Microsoft 365 Copilot Chat is your AI assistant, built right into Microsoft 365—at no extra cost. It is designed to help everyone in your organization use AI naturally in their flow of work—whether they need quick info, a starting point, or a creative boost. And because it is part of Microsoft 365, it is build on security you can trust.
+**Microsoft 365 Copilot Chat** is your AI assistant, built right into Microsoft 365—at no extra cost. It is designed to help everyone in your organization use AI naturally in their flow of work—whether they need quick info, a starting point, or a creative boost. And because it is part of Microsoft 365, it is build on security you can trust.
 Now that Copilot Chat is pinned and easy to find, it is the perfect time to spread the word.
 
-IT Admins and Change Management teams can use the Nudge App to prompt users with a friendly message like, “Hey, try Copilot Chat! Just type your request in the prompt and get started.” This simple nudge helps users quickly discover how powerful—and helpful—Copilot Chat can be.
+IT Admins and Change Management teams can use the Nudge App to prompt users with a friendly message like, `“Hey, try Copilot Chat! Just type your request in the prompt and get started.”` This simple nudge helps users quickly discover how powerful—and helpful—Copilot Chat can be.
 
 ---
 ## Available Options
