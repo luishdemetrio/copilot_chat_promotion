@@ -1,0 +1,161 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Discover the power of M365 Copilot Chat!",
+                    "wrap": true,
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "color": "Accent"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Microsoft 365 Copilot Chat is an approved and secure AI chat tool built specifically for work. It uses the latest AI models and data from the web to answer your questions, generate content and ideas, and find information.  With Copilot Chat you can: \n* Upload files to get responses based on information from your work documents, presentations, etc. \n* Generate images and data visualizations. \n* Refine and collaborate on chat responses using Copilot Pages.",
+                    "wrap": true,
+                    "spacing": "Small",
+                    "weight": "Default"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Here are some prompts you can try. Click a button below to open a specific Copilot chat session.",
+            "weight": "Bolder",
+            "wrap": true,
+            "size": "Medium",
+            "style": "heading",
+            "color": "Dark"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Draft fast with your team",
+                                    "url": "https://www.microsoft365.com/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlRXbGpjbTl6YjJaMFZqSjhhSFIwY0hNNkx5OXpkV0p6ZEhKaGRHVXRhVzUwTG05bVptbGpaUzVqYjIwdmZHUjFiVzE1ZkRFNE9EUTVPR0V5TFRWaFlURXRORE0wWlMxaVlqQXhMV1EyTURjd00yUmhORGt3TW54bGJpMTFjdyUzZCUzZCIsInNjZW5hcmlvIjoic2hhcmVMaW5rVmlhUHJvbXB0TGlicmFyeSIsInByb3BlcnRpZXMiOnsicHJvbXB0U291cmNlIjoibWljcm9zb2Z0IiwiY2xpY2tUaW1lc3RhbXAiOiIyMDI1LTA1LTE5VDA2OjA5OjE2Ljk5OFoifSwiY2hhdFR5cGUiOiJ3ZWIiLCJ2ZXJzaW9uIjoxLjF9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Going on Holiday?",
+                                    "url": "https://www.microsoft365.com/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1qazJaamRsWkRjdE1qYzRPQzAwTURabExUazNZemt0Tm1SbVpqTmxNR0prTkdGamZEUmlNRFV5T0Rjd0xURXpaRGN0TkRGa01pMWhaRFF5TFRrek9USTJOR0ZpWmpNellud3lNREkxTFRBMUxURTVWREEyT2pBMk9qQXpMalF6TWpFek9UbGEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjUtMDUtMTlUMDY6MDY6MDMuOTgxWiJ9LCJjaGF0VHlwZSI6IndlYiIsInZlcnNpb24iOjEuMX0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Find the Right Question",
+                                    "url": "https://www.microsoft365.com/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlRXbGpjbTl6YjJaMFZqSjhhSFIwY0hNNkx5OXpkV0p6ZEhKaGRHVXRhVzUwTG05bVptbGpaUzVqYjIwdmZHUjFiVzE1ZkRjM016VmlNVGxpTFdJME1XRXRORFppTnkwNE5tWXdMV1kxWW1KbE9HSmhPRFU1Wkh4bGJpMTFjdyUzZCUzZCIsInNjZW5hcmlvIjoic2hhcmVMaW5rVmlhUHJvbXB0TGlicmFyeSIsInByb3BlcnRpZXMiOnsicHJvbXB0U291cmNlIjoibWljcm9zb2Z0IiwiY2xpY2tUaW1lc3RhbXAiOiIyMDI1LTA1LTA3VDEwOjQwOjI0LjMzOVoifSwiY2hhdFR5cGUiOiJ3ZWIiLCJ2ZXJzaW9uIjoxLjF9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Write a Python script to [perform binary search]",
+                                    "url": "https://www.microsoft365.com/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlRXbGpjbTl6YjJaMFZqSjhhSFIwY0hNNkx5OXpkV0p6ZEhKaGRHVXRhVzUwTG05bVptbGpaUzVqYjIwdmZHUjFiVzE1ZkRrMk16VTVZV0poTFdObE56WXRORFE1TmkxaFptTmlMVFl3WVdNeE0yRmtNMkkzT0h4bGJpMTFjdyUzZCUzZCIsInNjZW5hcmlvIjoic2hhcmVMaW5rVmlhUHJvbXB0TGlicmFyeSIsInByb3BlcnRpZXMiOnsicHJvbXB0U291cmNlIjoibWljcm9zb2Z0IiwiY2xpY2tUaW1lc3RhbXAiOiIyMDI1LTA1LTA3VDExOjQxOjA5LjAzOVoifSwiY2hhdFR5cGUiOiJ3ZWIiLCJ2ZXJzaW9uIjoxLjF9"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Create a pie chart showing [the market share of smartphones in the United States]",
+                                    "url": "https://www.microsoft365.com/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlRXbGpjbTl6YjJaMFZqSjhhSFIwY0hNNkx5OXpkV0p6ZEhKaGRHVXRhVzUwTG05bVptbGpaUzVqYjIwdmZHUjFiVzE1ZkdVNU5tTXhOVEUzTFRWbVlXRXRORGMxWXkxaFltRXpMVEptWXpabU5UWXlabUV3TjN4bGJpMTFjdyUzZCUzZCIsInNjZW5hcmlvIjoic2hhcmVMaW5rVmlhUHJvbXB0TGlicmFyeSIsInByb3BlcnRpZXMiOnsicHJvbXB0U291cmNlIjoibWljcm9zb2Z0IiwiY2xpY2tUaW1lc3RhbXAiOiIyMDI1LTA1LTE5VDA2OjEyOjU3Ljg2NloifSwiY2hhdFR5cGUiOiJ3ZWIiLCJ2ZXJzaW9uIjoxLjF9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Track changes over time",
+                                    "url":"https://www.microsoft365.com/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1qazJaamRsWkRjdE1qYzRPQzAwTURabExUazNZemt0Tm1SbVpqTmxNR0prTkdGamZHWmpOVGd6WmpCakxUUTJaREl0TkRnelpTMWlOR0ZsTFRKaE1Ea3lNV1V5T1RWa09Id3lNREkxTFRBMUxURTRWREV5T2pRMk9qRXlMakUwT1RRMk1EaGEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjUtMDUtMThUMTI6NDY6MTMuNDY4WiJ9LCJjaGF0VHlwZSI6IndlYiIsInZlcnNpb24iOjEuMX0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "separator": true,
+            "spacing": "Medium",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "spacing": "Medium"
+                }
+            ]
+        }
+    ]
+}
