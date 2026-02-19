@@ -27,39 +27,39 @@ IT Admins and Change Management teams can use the Nudge App to prompt users with
 
     More details at: [PowerShell Instructions](https://github.com/luishdemetrio/copilot_chat_promotion/blob/main/instructions/PowerShell%20Promoting%20Copilot%20Chat%20on%20Teams.pdf)
 
- *  #### How to customize the Team messages ?
+ *  #### How to customize the Teams messages ?
 
     The messages provided within the solution are using [Adaptive Card open source technology](https://adaptivecards.io/).
     You can customize with you own messages using the [Adaptive Card designer](https://adaptivecards.microsoft.com/designer) and saving the JSON as a file within the solution.
     Have a look at the [Copilot Nudge App Documentation](https://github.com/luishdemetrio/copilot_chat_promotion/blob/main/instructions/Copilot%20Nudge%20App%20Documentation.pdf) to adapt the script and send the message you want. (#Path to the Adaptive Card JSON)
 
-    If you want to send message with buttons launching your own prompts, you can run a prompt from a user in the tenant and copy past the link inside of the Adaptive Card massage:
+    If you want to send message with buttons launching your own prompts, you can run a prompt in Microsoft Copilot from a user in the tenant and copy past the link inside of the Adaptive Card massage:
 
-![](images/co01.png)
+![](images/co01.png){ align=center }
 
-![](images/ac01.png)
+![](images/ac01.png){ align=center }
 
 *   #### Nudge App - Extended
 
-    This version is handles a library of messages instead of a single Adaptive Card message to provide to the script. It provides two libraries:
+    This version handles a library of messages instead of a single Adaptive Card message to provide to the script. It provides two libraries:
     
     -One including prompt links (Library)
 
     -One only showing the prompts to copy paste (Library - no prompt links)
 
-    For this solution you will need to customize the '#Folder containing your Adaptive Card JSON files' with the library path.
+    For this solution you will need to customize the '#Folder containing your Adaptive Card JSON files' with the library path in the script.
 
     When you run the script, after authentication, it will show you the list of Adaptive Card messages in that library folder. You will then be able to pick the one your want from the audience you are targeting.
 
-![](images/ps02.png)
+![](images/ps02.png){ align=center }
 
-![](images/ps01.png)
+![](images/ps01.png){ align=center }
 
 *   #### Overall recommendations 
     
-    -Use a service account with a friendly name for your audience (E.g. Copilot Nudges), this account must have a Teams license to send the messages
+    -Use a service account with a friendly name for your audience to authenticate and send the messages (E.g. Copilot Nudges), this account must have a Teams license to send the messages
     
-    -Customize & Brand your Adaptive Card layout using [Adaptive Card Designer](https://adaptivecards.microsoft.com/designer). You can add you logo and branding colors.
+    -Customize & Brand your Adaptive Card layout using [Adaptive Card Designer](https://adaptivecards.microsoft.com/designer). You can add your logo and branding colors.
 
 
 * ### Agent-based Nudge App (automated)
