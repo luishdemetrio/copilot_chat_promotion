@@ -35,9 +35,9 @@ IT Admins and Change Management teams can use the Nudge App to prompt users with
 
     If you want to send message with buttons launching your own prompts, you can run a prompt in Microsoft Copilot from a user in the tenant and copy past the link inside of the Adaptive Card massage:
 
-![](images/co01.png){ align=center }
+![](images/co01.png)
 
-![](images/ac01.png){ align=center }
+![](images/ac01.png)
 
 *   #### Nudge App - Extended
 
@@ -51,9 +51,9 @@ IT Admins and Change Management teams can use the Nudge App to prompt users with
 
     When you run the script, after authentication, it will show you the list of Adaptive Card messages in that library folder. You will then be able to pick the one your want from the audience you are targeting.
 
-![](images/ps02.png){ align=center }
+![](images/ps02.png)
 
-![](images/ps01.png){ align=center }
+![](images/ps01.png)
 
 *   #### Overall recommendations 
     
