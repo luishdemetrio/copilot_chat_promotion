@@ -1,0 +1,88 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Your Journey with Copilot Chat",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "What is Copilot Chat?",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Copilot Chat is a powerful and secure AI chat tool designed to unleash creativity, unlock productivity, and enhance skills. Copilot Chat is the **AI chat tool approved by our company because it offers corporate data protection** - meaning it prevents any leakage of confidential company information, which could happen with other AI tools.",
+          "wrap": true,
+          "spacing": "Small",
+          "weight": "Default"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Over the next few weeks, you will receive:\n\n**1. E-mails with instructions and examples on how to start using Copilot Chat.**\nThe examples will be personalized for your job function to help you get the most out of your experience. Additionally, interactive sessions will provide hands-on experience with various applicable configurations.\n\n**2. Invitations for training sessions:** to learn and experiment together with Copilot Chat.\nWe will organize several training sessions to allow everyone to participate; you just need to choose the slot that best fits your schedule.\n\n**3. Surveys:** You will be invited to complete a survey about your experience with Copilot Chat.\nThe survey will help us support you in the best possible way during your journey with Copilot. The survey is voluntary, and the results will be anonymous and reported only in aggregate form. We look forward to hearing your thoughts!",
+          "wrap": true,
+          "spacing": "Small",
+          "weight": "Default"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Step onto the path - prompt on!",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

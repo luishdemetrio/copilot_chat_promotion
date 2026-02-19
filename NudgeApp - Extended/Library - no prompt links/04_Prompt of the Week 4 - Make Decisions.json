@@ -1,0 +1,124 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Welcome to the great Copilot Chat journey: Prompt like an expert!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Welcome to Week 4, and get ready to unlock the full potential of Microsoft 365 Copilot Chat! \n This week we'll harness Copilot Chat as your **smart coach** to **sharpen your thinking, improve clarity, and uncover valuable insights**.\n\nWant to see what Copilot Chat can do?\nTry these prompts and get started right away. For the best experience, focus on one prompt per day and use it multiple times throughout your workday.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**CLARIFY THE STORY AND BUILD THE RIGHT PLAN**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *You are my smart coach. I'm a marketing manager presenting PetProtein campaign results (product launched ~3 months ago) to the leadership team. Before you generate anything, ask me 5 clarifying questions (audience, time, KPIs, channel mix, what “success” means). Then create a short checklist of trackable tasks to build a high‑level results presentation.*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**DEFINE THE KEY LEADERSHIP INSIGHTS**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *You are my smart coach. Define the top 3–5 leadership insights this deck must land (impact, efficiency, growth, risk). For each insight: specify the evidence you expect (which metrics / cuts), and how it should appear on a slide (headline + one proof point). If evidence is missing, list it as a data gap.*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**TURN REAL CAMPAIGN DATA INTO SLIDE‑READY CONTENT**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *You are my smart coach. Using the checklist and the data in the uploaded campaign document (web analytics, social, CRM), create content for each task. Keep it leadership‑ready: crisp headlines, key metrics, and 1–2 bullets max per slide's worth of content. Flag assumptions and missing data.*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**BUILD A HIGH‑LEVEL LEADERSHIP POWERPOINT**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *You are my smart coach. Turn the content into a high‑level PowerPoint for leadership: 8–10 slides max, each with a clear takeaway and the strongest metric. Create the PowerPoint file.*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**CRITIQUE, POLISH, AND PREP FOR EXECUTIVE Q&A**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *You are my smart coach. Review the draft deck and make it executive‑sharp: simplify wording, ensure one message per slide, tighten storyline, and add speaker notes (2–3 talk‑track lines per slide). Then generate 8 tough leadership Qs (budget, attribution, ROI, next bets) with strong, data‑grounded answers. Finally, regenerate the deck for French and German (keep numbers consistent; translate headings/notes).*]",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Over these four weeks, you’ve explored new ways of working with Copilot Chat. Take what you’ve learned, keep practicing, and make it part of how you work every day!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

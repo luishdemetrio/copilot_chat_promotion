@@ -1,0 +1,98 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**How to write an effective Prompt**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Prompts are how you start a conversation with Copilot — they’re the instructions or questions you give to get helpful, relevant responses.\n\nTo get the best results, write your prompt just like you would speak to a smart assistant:\n\n✅ Use simple and clear language\n\n✅ Provide context\n\n✅ Be specific and detailed\n\nStart by typing your prompt in the text box at the bottom of the screen. For example:\n\n*Write an introductory email to a new client.*",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**What Makes a Good Prompt?**",
+      "wrap": true,
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "color": "Good",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "A strong prompt usually includes:\n\n🎯 **Objective** - What do you want Copilot to do?\nExample: *Create a list of 3–5 key points to help me prepare...*\n\n📘 **Context** - What’s the situation or background?\nExample: *...for a meeting where we’ll discuss the current status of initiative [X].*\n\n🎨 **Tone** - What tone or style should the response have?\nExample: *Use a professional tone with enough detail to give full context.*\n\n📎 **Sources** - Are there any documents or data Copilot should consider?\nExample: *Use the information in this document: [doc.pdf]*",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Try a More Advanced Prompt:**",
+      "wrap": true,
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "color": "Good",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "*Based on the attached document, summarize the key risks and propose 3 mitigation strategies in a formal tone for a leadership presentation.*",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Curious what Copilot can really help with? Start prompting and try it on a task you’re already doing.**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Explore Copilot Chat",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**\n\nLearn more: [How write an effective prompt](https://www.youtube.com/watch?si=G6qZK7VKifyCqASq&v=Fv8BcGCnP5g&feature=youtu.be)",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

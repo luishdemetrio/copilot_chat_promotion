@@ -1,0 +1,123 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Welcome to the great Copilot Chat journey: Use case of the week!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Welcome to week 2 of our 'Use case of the week' series, where we're looking at how Copilot Chat can help with everyday tasks like drafting, organising information, analysing content, or planning next steps.\nNo theory - just practical examples you can try immediately and see the difference in your daily work.**\n\nStay tuned as we build new Copilot habits, week by week!",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**SCENARIO DESCRIPTION**\n\nThis use case shows how Copilot Chat can act as a **smart coach** for marketing professionals.\nThe scenario focuses on marketing manager preparing a **high-level presentation for leadership**, showcasing the results of a campaign for PetProtein, a new product line for healthy dogs. \nThe process begins by asking Copilot to **generate a checklist of tasks** needed to build the presentation. \nThen, a document with campaign data (website analytics, social media, CRM) is uploaded, and Copilot is prompted to **generate content** for each task based on the real data. \nOnce the content is ready, Copilot creates a **draft PowerPoint presentation**. \nThe user can review and adjust each task directly in **Microsoft Pages**, and even **regenerate the presentation in other languages** like French or German. This use case highlights how Copilot Chat supports structured planning, data integration, and content creation - all in one workflow.\n\n**PROMPTS USED**",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "[✨ *I’m a marketing manager, I'm working on released product launched 3 months ago. The product is called PetProtein, that is a new line of food for healthy and fit dogs. I need to show marketing campaign results to the leadership team, so I need to create a high-level presentation. Create a checklist of trickable tasks to achieve my scope. Give a short list.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZETmtOelUyWldWaUxXTmlaRFl0TkRVMFpDMWhObUU0TFdVME5XTXlORGN5TmpoaU9Yd3lNREkyTFRBeExUSXhWREUwT2pFME9qUXlMamc1TWpVNE56WmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTQ6MTQ6NDIuMDQ0WiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Considering the checklist and the provided data in this file create a content for each task.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZHRmhZamN4T1dZeExUTTRaR0l0TkRrMk55MDVOalJpTFRnNFptRTVZemxsTXpkbE0zd3lNREkyTFRBeExUSXhWREUwT2pFMk9qRXpMalF5TWpRMU5EUmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTQ6MTY6MTIuNTYyWiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)", 
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Act as a leadership communications coach. Review this draft presentation and improve it for an executive audience:
+          - Tighten wording to be clear, confident, and metric-led (remove fluff).
+          - Ensure each slide has one main message and consistent terminology.
+          - Add speaker notes (2–3 short talking points per slide).
+          - Generate a Q&A prep list: 8 likely leadership questions + strong, data-grounded answers based on the uploaded campaign data.
+          If anything is missing or unclear, flag it as “data gap” and suggest what to add.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZERXlOMlptWkRVMkxUTmlNbVl0TkdKa1pTMWhPR1F3TFRaak5URXpOemxqTURVNU5ud3lNREkyTFRBeExUSXhWREUwT2pFMU9qVTVMams0TnpNeE5UaGEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTQ6MTU6NTkuMTMwWiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)", 
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Create an executive summary slide in French and German.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZEZzBNR1UwWmpNM0xUWXdZVEF0TkdSbFpDMDVPR0psTFRRellUVmlaVFpoT1RVeU1Yd3lNREkyTFRBeExUSXhWREUwT2pFMk9qVTJMak0wTXprNU1qUmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTQ6MTY6NTUuNTA4WiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)", 
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Create a PowerPoint file.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZEbGlOekpoWmpKaExUY3daV0l0TkdSaFlTMDRZbVppTFRabU9ESXpOVGszWlRabU1Id3lNREkyTFRBeExUSXhWREUwT2pJeE9qUXlMakEyTmpNMk9UUmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTQ6MjE6NDEuMjk2WiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)", 
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Inspired by this use case? Put it into action!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+   
+       {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Learn more",
+                  "url": "https://www.youtube.com/watch?si=1XPWr6r5N3wgxzdy&v=1AriVoD-ijE&feature=youtu.be"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+   
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

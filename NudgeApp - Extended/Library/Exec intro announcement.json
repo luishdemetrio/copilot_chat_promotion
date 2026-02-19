@@ -1,0 +1,89 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Kicking off our Microsoft 365 Copilot journey",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Work is something that’s both universal and deeply personal to us all. At its best, work can help us find meaning and inspiration. But it can be easy to feel lost in the drudgery of tasks that zap our energy, time, and creativity. Microsoft 365 Copilot Chat will change all that. Just like we can’t imagine work without a computer today, soon we won’t be able to fathom how we ever worked without Copilot Chat.\n\nCopilot Chat provides a powerful and safe AI chat tool to unleash creativity, unlock productivity, and uplevel skills. Copilot Chat is [your company name]’s approved AI chat tool because it offers enterprise data protection – meaning it prevents any leaking of confidential company information to the public, which may occur with other AI tools. \n\nOver the next few [months], you will be getting [weekly] emails from [name of deployment team] with guidance and examples on how to start using Copilot Chat. The examples will be personalized for your job function to help you get the most out of your experience. I strongly encourage you to take advantage of these emails and try out the examples – the real benefits happen when we make Copilot a regular habit throughout our workdays. \n\nIn addition to these weekly emails, you will be invited to join a full-day, in-person onsite of Copilot Chat learning and experimentation: [name of training event]. This will take place on [date] from 9-4:30pm. More information on agenda and logistics will be communicated closer to the date, but I urge you to prioritize the event.\n\nFinally, at three separate instances over the next six months, you will be invited to complete a survey about your experience using Copilot Chat. The survey will help us support you as best as we can throughout your Copilot journey. The survey is voluntary, and results will be anonymous and only reported in the aggregate.\n\n I am incredibly excited to see what we can achieve with this new tool. Copilot Chat will be available to [department/team] on [date]. We look forward to hearing what you think!\n\nThank you,[Exec name]**",
+          "wrap": true,
+          "spacing": "Small",
+          "weight": "Default"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Copilot Chat security",
+                  "url": "https://www.youtube.com/watch?v=7JjGEdGJLY0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Explore Copilot Chat",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+ {
+  "type": "TextBlock",
+  "text": "**Note: This is a system-generated message. Please do not reply to this chat.**\n\nLearn more: [m365copilot.com](https://m365copilot.com)",
+  "wrap": true,
+  "weight": "Bolder",
+  "spacing": "Medium"
+}
+      ]
+    }
+  ]
+}
