@@ -1,0 +1,73 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Ready to level-up?",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Hi there,\n\nThink you've mastered the basics of Microsoft 365 Copilot Chat?\n\nIt's time to put your skills to the test!\n\nTake our quick 2-minute quiz and see how much you've learned.\n\nComplete it and unlock your 'Copilot Chat Power User' badge - a fun way to show you're on your way to becoming a true Copilot pro.\n\nIt's fast, easy, and a great way to celebrate your progress.\n\nReady to prove your skills?\n\nLet's go!",
+          "wrap": true,
+          "spacing": "Small",
+          "weight": "Default"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Take the quiz, and earn your badge!",
+                  "url": "https://contoso.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

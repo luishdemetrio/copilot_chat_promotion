@@ -1,0 +1,136 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Let's start the journey with Copilot Chat**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Copilot Chat is the AI chat tool that supports you in **answering your questions**, generating content and ideas, and finding useful information. Remember that it is the **AI chat tool approved by our company**, which uses the latest AI models and information available on the web to facilitate your work. At the same time, it\n**protects your data** so that the information from your conversations with the chat is not exposed publicly.",
+          "wrap": true,
+          "spacing": "Small",
+          "weight": "Default"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**How to start**",
+      "wrap": true,
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "color": "Good",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "You can chat with Copilot using questions and instructions, called prompts, to get a helpful response, idea, or action, for example:\n- *Write a professional email to follow up after a client meeting*\n- *Summarize the key points from this document*\n- *Create a short LinkedIn post about our latest AI initiative*",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**A few steps to try Copilot Chat right away**",
+      "wrap": true,
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "color": "Good",
+      "spacing": "Medium"
+    },
+
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "1. **Access Copilot Chat** from one of the following apps:",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "- **Microsoft Teams app** (on the left-hand sidebar)\n- **Microsoft Outlook app** (on the left-hand sidebar)\n- **Microsoft 365 Copilot app** (from the Windows taskbar)\n- **Microsoft Edge app** (at the top right of your Edge page)\n- **Navigate in your browser to [M365Copilot.com](https://m365copilot.com)** and log in with your corporate account.",
+          "wrap": true,
+          "spacing": "None"
+        },
+        {
+          "type": "TextBlock",
+          "text": "2. **Write a prompt** or choose one of the available “prompts” in the Copilot Chat prompt box. Use simple but clear language and provide context to get better results. For example, \"Write a speech on the pros and cons of social media. The target audience is pre-teens, so make it casual and youthful.\"",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "3. **You can also upload files** to get responses based on the information from your work documents, presentations, and more. Select the 'Add content' button to upload a file and try, for example, this prompt: \"Summarize this document in 5 points\".",
+          "wrap": true,
+          "spacing": "Medium"
+        }
+      ]
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "**Ready to get started? Jump in today and discover a smarter way of working with Copilot. 🚀**",
+      "wrap": true,
+      "spacing": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Explore Copilot Chat",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**\n\nLearn more: [Introducing Microsoft 365 Copilot Chat](https://www.youtube.com/watch?v=rc-fc7pT9nw)",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

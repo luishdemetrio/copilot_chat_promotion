@@ -1,0 +1,103 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "AI revolution and Copilot Chat",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "**Artificial Intelligence (AI)** is no longer a futuristic concept - it’s becoming an integral part of our daily lives, transforming not only how we interact with technology but also how we work.\n\nAs part of this evolution, our company has chosen to adopt an AI tool that prioritizes **security and data protection**, setting it apart from many other solutions on the market.\n\nWe’re excited to introduce **Copilot Chat** - the official AI chat assistant approved by our company. Copilot Chat is a powerful and secure AI chat tool designed to unleash creativity, unlock productivity, and enhance skills.\n\nIt leverages the latest AI models and web knowledge to support your work, unlock creativity, boost productivity, and enhance your skills - all while keeping your data safe.\n\nUnlike other tools, Copilot Chat ensures that **your conversations remain private and that no confidential company information is exposed or leaked.**\n\nWe encourage you to **explore Copilot Chat and make it part of your daily workflow.**",
+          "wrap": true,
+          "spacing": "Small",
+          "weight": "Default"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Our Journey with Copilot Chat",
+      "wrap": true,
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "color": "Good"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Over the next few weeks**, you’ll receive a series of **Teams notifications** to help you get started with AI at work.\n\n**In the first week**, you’ll receive three messages introducing the concept of Artificial Intelligence, explaining why Copilot Chat is our company’s official AI tool, and sharing tips on how to **interact with it effectively.**\n\nStarting from the second week, you’ll receive:\n- **Every Monday**, simple prompts you can try right away with Copilot - designed to enhance your daily work, boost creativity, and improve productivity.\n- **Every Wednesday**, Copilot Chat use case of the week, along with a video walkthrough demonstrating each step.\n- **On the Friday of the third week**, a quiz to test your Copilot Chat skills.",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Copilot Chat security",
+                  "url": "https://www.youtube.com/watch?v=7JjGEdGJLY0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Explore Copilot Chat",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+ {
+  "type": "TextBlock",
+  "text": "**Note: This is a system-generated message. Please do not reply to this chat.**\n\nLearn more: [m365copilot.com](https://m365copilot.com)",
+  "wrap": true,
+  "weight": "Bolder",
+  "spacing": "Medium"
+}
+      ]
+    }
+  ]
+}

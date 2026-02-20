@@ -1,0 +1,113 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Welcome to the great Copilot Chat journey: Use case of the week!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Get ready to unlock the full potential of Microsoft 365 Copilot Chat!\n\n This week we're starting on a journey that's all about putting Copilot Chat into practice.\nEvery Wednesday for the next four weeks we will show you **how Copilot Chat can help with everyday tasks like drafting, organising information, analysing content, or planning next steps.\nNo theory - just practical examples you can try immediately and see the difference in your daily work.**\n\nStay tuned as we build new Copilot habits, week by week!",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**SCENARIO DESCRIPTION**\n\nThis use case demonstrates how to **leverage Copilot Chat to extract key information from a document and transform it into a professional LinkedIn post**.\n\nThe process begins by **uploading a document** to OneDrive and **prompting Copilot to extract** five key highlights.\n\nWe then **dive deeper** into one of the points, enrich the content with real-time web updates, and **generate a bilingual** (English and Italian) LinkedIn post tailored for Mobility Managers. The post includes **relevant hashtags** and a **suggested publishing time**.\n\nFinally, we **collaborate with a colleague** by sharing the content via Microsoft 365 tools, enabling **real-time co-editing**.\n\nThis scenario showcases how Copilot Chat enhances productivity, creativity, and teamwork in content creation.\n\n**PROMPTS USED**",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Extract information from this document, I need 5 key points to prepare the text of a post for LinkedIn.*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *For step 3 extract more details.*]", 
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Check if there are any updates on these topics by searching the web.*]", 
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Integrate this information into the LinkedIn post, write the text in the first person, maximum length of 200 words, in English and Italian.*]", 
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Inspired by this use case? Put it into action!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+   
+       {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Learn more",
+                  "url": "https://www.youtube.com/watch?v=nlli4FSJknc"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+   
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Welcome to the great Copilot Chat journey: Prompt like an expert!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Over the next 4 weeks, you'll discover how to transform the way you work with Copilot Chat. Each week, we'll focus on a different skill, and you'll receive prompts to try out right away.\n\n**In Week 1** we're starting with **improving your writing and communication skills**.\n\nWant to see what Copilot Chat can do?\nTry these prompts and get started right away. For the best experience, focus on one prompt per day and use it multiple times throughout your workday.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**ELEVATE YOUR WRITING**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Rewrite this to sound more professional and less verbose: [insert text].*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**BREAK THROUGH LANGUAGE BARRIERS**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *How do you say [thank you for your time] in Japanese?*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**QUICKLY DRAFT EMAILS**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Draft an email to [name] about [topic].*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**MAKE WRITING LESS STRESSFUL**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Analyze the text in the following and make suggestions on how to improve it: [insert text].*]",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**CREATE AN IMAGE**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Create a simple coloring book image for my child featuring [our family pet]. The image should be clean line art with black outlines on a white background with open space for coloring. The outlines should be closed paths and complete objects. There should be no stray lines or smudges. Include a fun setting to further engage my child in the coloring experience.*]",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Give these prompts a try this week. Next week, we'll show you how to take your work to the next level by summarizing documents and writing drafts!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

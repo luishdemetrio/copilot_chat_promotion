@@ -1,0 +1,111 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Welcome to the great Copilot Chat journey: Use case of the week!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Welcome back to our 'Use case of the week' series.\n\nThis week, we’ll use Copilot Chat to turn raw numbers into clear insights you can share with stakeholders.\n\n**No theory - just practical examples you can try immediately and see the difference in your daily work.**",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**SCENARIO DESCRIPTION**\n\nThis use case demonstrates how to use Copilot Chat to analyze a dataset (Excel export, CSV, or KPI table) and produce:\n- Key trends and anomalies\n- Top drivers and hypotheses\n- A short executive summary\n- Suggested next actions\n\nYou’ll upload the file (or paste a table), ask Copilot to summarize patterns, then generate a stakeholder-ready narrative.\n\n**PROMPTS USED**",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Analyze the attached dataset. Identify 5 key trends, 3 anomalies/outliers, and what might be driving them. If assumptions are needed, list them clearly.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZEWmhOMkZqTWpGbExXRTROVGN0TkRaaE1pMDVNekUzTFRnMk1XVmhNbUptTXpKbVpId3lNREkyTFRBeExUSXhWREUyT2pBd09qUTFMakUwTVRVME9ESmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MDA6NDUuNTk2WiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Create an executive summary (max 120 words) explaining what changed, why it matters, and what we should do next.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZHVTVaamRtWTJSakxUYzFaR1V0TkRSaVpDMWlNMlJqTFdFek4yVmpZekptWkRFM05Id3lNREkyTFRBeExUSXhWREUyT2pBd09qVTJMalF5TWpFMk1URmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MDA6NTYuNTYxWiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Draft a stakeholder email explaining the results in plain language, with 3 bullets and a short ‘recommended actions’ section.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZHVTJZbU01WkdObUxXVTJORGd0TkdFME1DMWlaREptTFdaaU1ETXhOMlF4WVdFMFpId3lNREkyTFRBeExUSXhWREUyT2pBeE9qQTBMakEwTlRVM05qUmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MDE6MDQuMTgwWiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Suggest 5 follow-up analyses or questions I should investigate next (e.g., segmentation, time comparisons, channel breakdown). Prioritize by impact.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZHSm1PREV4WldaaExUazROak10TkdZeU1TMDROekpsTFRneFpERTFPVEF6WlRFNU5Yd3lNREkyTFRBeExUSXhWREUyT2pBeE9qRXdMakU0TURjd01EZGEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MDE6MTAuMjkzWiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Inspired by this use case? Put it into action!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Learn more",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

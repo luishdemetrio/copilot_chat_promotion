@@ -1,0 +1,116 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Welcome to the great Copilot Chat journey: Use case of the week!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Get ready to unlock the full potential of Microsoft 365 Copilot Chat!\n\nThis week, we’ll use Copilot Chat to **upload documents, create a SWOT analysis, and collaborate on the results for fine-tuning**.\n\nNo theory — just a practical workflow you can try immediately and reuse for vendor evaluations, RFPs, and proposal comparisons.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**SCENARIO DESCRIPTION**\n\nYou’ve received a **Request for Proposal (RFP)** and multiple vendor proposals. You need to quickly compare them and recommend the best option.\n\nIn this use case, Copilot Chat helps you:\n- Analyze the RFP and proposals\n- Create a **SWOT comparison** in a **tabular format**\n- Score each proposal against key criteria\n- Add additional vendors to the comparison later\n- Generate ready-to-share outputs (Word + Excel) for collaboration\n\n**PROMPTS USED**",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Analyze the attached Request for Proposal (RFP) and perform a SWOT comparison with the attached proposals. The output should be in tabular format. For each section of the RFP document, identify which proposal is superior. Quantify this evaluation according to the following guidelines: Budget (lowest price wins), Implementation Timeline (shortest wins), Technical Requirements (best match + completeness), Introduction (best completeness), Business Requirements (best adherence + completeness). The output table should include: a column for the sections, a column for each submitted proposal with the assigned scores, and a column explaining the rationale behind the different scores. For each category, assign points to only one vendor. Finally, include a summary that identifies the best proposal overall.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZHSTJNalEwTnpKaUxUVXdORGt0TkRZNFpTMDRNelJpTFdRNE5tWTROakZpWVdGbE1ud3lNREkyTFRBeExUSXhWREUyT2pJME9qVXdMakF4TXpZME1qaGEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MjQ6NTAuMTc1WiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Add in the comparison the company ThreeStars Offer.docx.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZERTVabVUwT1RrekxXRXhPREl0TkdKall5MDVZekppTFdZMk1XWXdOREUwTlRNelpud3lNREkyTFRBeExUSXhWREUyT2pJMU9qSXpMalUyTURFNU9ETmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MjU6MjMuODIwWiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Insert the introduction, the analysis, and a simple comparison graph into a Word document.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZEazNaRE5tWmpjMkxUaGhZVEV0TkdRek5pMDRaR0V3TFRVMFpqSTRaalUwTlRWalkzd3lNREkyTFRBeExUSXhWREUyT2pJMU9qTTNMamMxTkRrMU16TmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MjU6MzcuOTEzWiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Generate an Excel file based on the comparison table data.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZEVmxPVGhtWmpnNExUZG1OREV0TkRVeE1TMWhNRGhpTFdKaE1ETXpaVGN4TmpNME5ud3lNREkyTFRBeExUSXhWREUyT2pJMk9qQXhMakl5T0RjM05UVmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MjY6MDEuMzc5WiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[✨ *Share the table and summary with a colleague and suggest 3 improvements to make the evaluation clearer for leadership (e.g., weighting, risks, assumptions, data gaps). Then refine the final recommendation.*](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1HRXhZVEJpTW1JdE1UZ3hNQzAwT1RGakxXSmxPVGN0TXpaaFlUa3pNakkyWW1KaGZHVmlPREZoTkRRM0xUVXhNemt0TkRkbFpDMWlabU01TFdFM056bGhaV1poWmpGbE1ud3lNREkyTFRBeExUSXhWREUyT2pJMk9qTXdMakl6TlRRMk56VmEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVBvcG92ZXIiLCJwcm9wZXJ0aWVzIjp7InByb21wdFNvdXJjZSI6InVzZXIiLCJjbGlja1RpbWVzdGFtcCI6IjIwMjYtMDEtMjFUMTY6MjY6MzAuNDM0WiJ9LCJjaGF0VHlwZSI6IndvcmsiLCJ2ZXJzaW9uIjoxLjF9)",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Inspired by this use case? Put it into action!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Try Copilot Chat",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Note: This is a system-generated message. Please do not reply to this chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}
